@@ -1,0 +1,20 @@
+[project]
+name = "slid"
+version = "0.1.0"
+description = "Train and save production-ready ML models for detecting intermittent job failures using small language models"
+authors = [
+    {name = "Henri Aïdasso",email = "ahenrij@gmail.com"}
+]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "my_project", from = "src" }
+]
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
