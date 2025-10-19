@@ -12,7 +12,7 @@ module load gcc arrow/17.0.0 cuda python/3.10
 
 export PYTHONPATH=$HOME/.local/lib/python3.10/site-packages:$PYTHONPATH
 export PYTHONPATH=/home/haidasso/scratch/slid/src:$PYTHONPATH
-export HF_TOKEN = "xxx"
+export HF_TOKEN="xxx"
 
 # python environment
 source ~/slidenv/bin/activate
