@@ -170,12 +170,14 @@ def main(
     """Train a model and save in output directory."""
     df = load_dataframe(input_file=input_dataset)
     trainer = create_model(df, project, num_shots, base_model_name, output_dir, seed)
-    trainer.model.push_to_hub(
-        f"ahenrij/slid-{project}",
+    
+    # Export setfit model
+    model = trainer.model
+    model.push_to_hub(
+        f"ahenrij/{}slid-{project}",
         commit_message=f"Fine-tuned on {base_model_name} with {num_shots} shots.",
         private=True
     )
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
