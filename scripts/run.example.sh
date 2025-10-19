@@ -2,7 +2,7 @@
 #SBATCH --time=00:20:00
 #SBATCH --mem-per-cpu=16G
 #SBATCH --array=1
-#SBATCH --account=def-borf
+#SBATCH --account=xxx
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=v100l:1
 #SBATCH --ntasks-per-node=1
