@@ -8,6 +8,7 @@ async_timeout==4.0.3+computecanada
 attrs==25.1.0+computecanada
 certifi==2025.1.31+computecanada
 charset_normalizer==3.4.1+computecanada
+coloredlogs==15.0.1+computecanada
 colorlog==6.9.0+computecanada
 comm==0.2.2+computecanada
 contourpy==1.2.1+computecanada
@@ -22,6 +23,7 @@ evaluate==0.4.3+computecanada
 exceptiongroup==1.2.1+computecanada
 executing==2.0.1+computecanada
 filelock @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/filelock/filelock-3.12.2
+flatbuffers==25.9.23
 flit_core @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/flit_core/flit_core-3.9.0
 fonttools==4.53.0+computecanada
 frozenlist==1.5.0+computecanada
@@ -32,6 +34,7 @@ hatch-vcs @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/hatch_vcs/ha
 hatchling @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/hatchling/hatchling-1.18.0
 hf_xet==1.1.10+computecanada
 huggingface_hub==0.35.3+computecanada
+humanfriendly==10.0+computecanada
 idna==3.10+computecanada
 ipykernel==6.29.4+computecanada
 ipython==8.25.0+computecanada
@@ -54,6 +57,8 @@ nest_asyncio==1.6.0+computecanada
 networkx==3.4.2+computecanada
 nose==1.3.7+computecanada
 numpy==1.26.4+computecanada
+onnx==1.16.0+computecanada
+onnxruntime==1.17.3+computecanada
 optuna==4.5.0+computecanada
 packaging @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/packaging/packaging-23.1
 pandas==2.2.3+computecanada
@@ -65,6 +70,7 @@ platformdirs @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/platformd
 pluggy @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/pluggy/pluggy-1.3.0
 prompt_toolkit==3.0.47+computecanada
 propcache==0.2.1+computecanada
+protobuf==6.33.0
 psutil==5.9.8
 ptyprocess==0.7.0+computecanada
 pure_eval==0.2.2+computecanada
@@ -84,7 +90,8 @@ sentence_transformers==5.1.1+computecanada
 setfit==1.1.3
 setuptools-scm @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/setuptools_scm/setuptools_scm-7.1.0
 six @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/six/six-1.16.0
--e git+ssh://git@github.com/ahenrij/slid.git@cf3e23341700a88676bc48f7dd6a69a37ccda9cf#egg=slid
+skl2onnx==1.19.1
+-e git+ssh://git@github.com/ahenrij/slid.git@e7bff0059ccaf843ac134f6fd44ad60d4c79d914#egg=slid
 SQLAlchemy==2.0.38
 stack_data==0.6.3+computecanada
 sympy==1.13.1+computecanada

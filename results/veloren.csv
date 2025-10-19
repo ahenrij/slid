@@ -1,0 +1,2 @@
+0_precision,0_recall,0_f1_score,0_support,1_precision,1_recall,1_f1_score,1_support,accuracy,macro_avg_precision,macro_avg_recall,macro_avg_f1_score,macro_avg_support,weighted_avg_precision,weighted_avg_recall,weighted_avg_f1_score,weighted_avg_support,random_seed,num_shots,training_time
+0.782608695652174,0.9642857142857143,0.864,112.0,0.9111111111111111,0.5774647887323944,0.7068965517241379,71.0,0.8142076502732241,0.8468599033816425,0.7708752515090543,0.7854482758620689,183.0,0.8324648240542752,0.8142076502732241,0.8030472960241192,183.0,1,1,0.40900933742523193
