@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#SBATCH --time=00:15:00
+#SBATCH --time=00:20:00
 #SBATCH --mem-per-cpu=16G
 #SBATCH --array=1
 #SBATCH --account=def-borf
@@ -11,6 +11,6 @@
 module load gcc arrow/17.0.0 cuda python/3.10
 
 # python environment
-source ~/pyenv2/bin/activate
+source ~/slidenv/bin/activate
 
 python src/models/run.py --project veloren --shots 1 --seed $SLURM_ARRAY_TASK_ID
