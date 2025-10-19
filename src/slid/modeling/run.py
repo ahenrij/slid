@@ -13,7 +13,8 @@ from setfit import SetFitModel, Trainer, sample_dataset
 
 from slid.utils import utils
 from slid.preprocessing import log
-from slid.modeling import evaluate, hp_search
+from slid.modeling import hp_search
+from slid.modeling import evaluator
 
 
 text_column = "log"
@@ -57,7 +58,7 @@ def create_dataset_split_dict(
         test_size=valid_size,
         random_state=random_seed,
         shuffle=shuffle,
-        stratify=df[label_column],
+        stratify=train[label_column],
     )
 
     # create dataset dict
@@ -149,7 +150,7 @@ def create_model(
     y_pred = trainer.model.predict(X_test)
 
     # evaluation on in-project test data
-    result = evaluate.compute_metrics(y_pred, y_test)
+    result = evaluator.compute_metrics(y_pred, y_test)
     result["random_seed"] = seed
     result["num_shots"] = num_shots
     result["training_time"] = training_time

@@ -1,7 +1,7 @@
 """Utilities."""
 
-import csv
 import os
+import csv
 from typing import Dict, List, MutableMapping, Optional
 
 

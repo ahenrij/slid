@@ -26,6 +26,7 @@ flit_core @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/flit_core/fl
 fonttools==4.53.0+computecanada
 frozenlist==1.5.0+computecanada
 fsspec==2024.9.0+computecanada
+git-filter-repo==2.47.0
 greenlet==3.1.1+computecanada
 hatch-vcs @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/hatch_vcs/hatch_vcs-0.3.0
 hatchling @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/hatchling/hatchling-1.18.0
@@ -53,9 +54,9 @@ nest_asyncio==1.6.0+computecanada
 networkx==3.4.2+computecanada
 nose==1.3.7+computecanada
 numpy==1.26.4+computecanada
-optuna==4.2.1
+optuna==4.5.0+computecanada
 packaging @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/packaging/packaging-23.1
-pandas==2.2.1+computecanada
+pandas==2.2.3+computecanada
 parso==0.8.4+computecanada
 pathspec @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/pathspec/pathspec-0.11.2
 pexpect==4.9.0+computecanada
@@ -74,7 +75,7 @@ python_dateutil==2.9.0.post0+computecanada
 pytz==2024.1+computecanada
 PyYAML==6.0.2+computecanada
 pyzmq==26.0.3+computecanada
-regex==2024.9.11+computecanada
+regex==2025.9.18
 requests==2.32.3+computecanada
 safetensors==0.5.3+computecanada
 scikit_learn==1.5.2+computecanada
@@ -83,6 +84,7 @@ sentence_transformers==5.1.1+computecanada
 setfit==1.1.3
 setuptools-scm @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/setuptools_scm/setuptools_scm-7.1.0
 six @ file:///tmp/ebuser/avx512/Python/3.10.13/GCCcore-12.3.0/six/six-1.16.0
+-e git+ssh://git@github.com/ahenrij/slid.git@cf3e23341700a88676bc48f7dd6a69a37ccda9cf#egg=slid
 SQLAlchemy==2.0.38
 stack_data==0.6.3+computecanada
 sympy==1.13.1+computecanada
