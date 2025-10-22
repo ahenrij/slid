@@ -174,7 +174,7 @@ def main(
     # Export setfit model
     model = trainer.model
     model.push_to_hub(
-        f"ahenrij/{}slid-{project}",
+        f"ahenrij/slid-{project}",
         commit_message=f"Fine-tuned on {base_model_name} with {num_shots} shots.",
         private=True
     )
